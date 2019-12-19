@@ -1,0 +1,89 @@
+[
+  {
+    "line": 21,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-19T14:57:45.590Z",
+        "line": 25,
+        "name": "It is Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-friday",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5558900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "today is \"Friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Friday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1326900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I ask if it is Friday",
+            "match": {
+              "location": "IsItFridayYetSteps.i_ask_if_it_is_Friday()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5269800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I get a YES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "YES",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.i_get_a_YES(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@removed"
+          },
+          {
+            "name": "@fast"
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet",
+    "description": "  I want to ask if it is Friday yet",
+    "id": "is-it-friday-yet",
+    "keyword": "Feature",
+    "uri": "classpath:be/iris/testJunit/cucumber/features/is_it_Friday_yet.feature",
+    "tags": [
+      {
+        "name": "@removed",
+        "type": "Tag",
+        "location": {
+          "line": 20,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

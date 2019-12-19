@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.085303">
+<testcase classname="Is it Friday yet" name="It is Friday" time="0.085303">
+<system-out><![CDATA[Given today is "Friday".....................................................passed
+When I ask if it is Friday..................................................passed
+Then I get a YES............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
